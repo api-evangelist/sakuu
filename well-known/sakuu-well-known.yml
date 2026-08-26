@@ -1,0 +1,32 @@
+generated: '2026-08-26'
+method: probed
+source: https://www.sakuu.com/.well-known/
+note: >-
+  Every /.well-known/ path was probed on the single host Sakuu operates (www.sakuu.com) and every one
+  returned HTTP 404 from the origin with a plain nginx "404 Not Found" body — a real negative, not an
+  SPA catch-all. No WellKnown or SecurityTxt pointer is wired in apis.yml because the provider serves
+  none of these documents. Sakuu has no API host, so there is no second host to probe.
+hosts:
+- host: www.sakuu.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

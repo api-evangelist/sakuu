@@ -1,17 +1,33 @@
 aid: sakuu
 name: Sakuu
-description: 'Sakuu is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Sakuu Corporation is a Silicon Valley advanced-manufacturing company that builds commercial-scale
+  printing equipment for the battery and supercapacitor industries. Founded in 2016 as KeraCel and
+  renamed Sakuu in 2021, it develops the Kavian platform — a dry-process electrode printing system
+  that produces cathodes and anodes without solvents or drying ovens, covering NCA, NCM, LFP, LTO,
+  graphite and silicon-graphite chemistries as well as sodium-ion, aluminum-ion and solid-state
+  formulations. Kavian was named a TIME Best Invention of 2024 and a Fast Company World Changing
+  Idea of 2025, and the Kavian 2000 platform is sold to battery makers serving AI data centers,
+  energy storage, two- and three-wheel mobility, aerospace and industrial electrification. Sakuu
+  sells capital equipment and process technology; it does not operate a software product, a
+  developer program, or any public API.
 url: https://raw.githubusercontent.com/api-evangelist/sakuu/refs/heads/main/apis.yml
+image: https://www.sakuu.com/media/uploads/home/homepage/Open_Graph_Banner.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Manufacturing
+- Advanced Manufacturing
+- Batteries
+- Energy Storage
+- Materials Science
+- Hardware
+- Clean Energy
+- Industrial Equipment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sakuu-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/sakuu-stock
+  url: https://www.sakuu.com/
+- type: Blog
+  url: https://www.sakuu.com/news
+- type: Support
+  url: https://www.sakuu.com/contact
+- type: TermsOfService
+  url: https://www.sakuu.com/terms
+- type: PrivacyPolicy
+  url: https://www.sakuu.com/privacy
+- type: Plans
+  url: plans/sakuu-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/sakuu-rate-limits.yml
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Sakuu sells the Kavian dry-electrode printing machine to battery manufacturers — capital
+    equipment, not software — and its six-page marketing site (Manufacturing, Technology, News,
+    Company, Careers, Contact) has no developer, docs, login or platform section at all; api.,
+    developer., docs., app. and portal..sakuu.com do not resolve.
+  evidence:
+  - url: https://www.sakuu.com/openapi.json
+    status: 404
+  - url: https://www.sakuu.com/llms.txt
+    status: 404
+  - url: https://www.sakuu.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.sakuu.com/developers
+    status: 404
+  - url: https://api.github.com/orgs/sakuu
+    status: 404
+  checked: '2026-08-26'
