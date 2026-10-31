@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sakuu is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/sakuu-stock
+Sakuu Corporation is a Silicon Valley advanced-manufacturing company that builds commercial-scale printing equipment for the battery and supercapacitor industries. Founded in 2016 as KeraCel and renamed Sakuu in 2021, it develops the Kavian platform — a dry-process electrode printing system that produces cathodes and anodes without solvents or drying ovens, covering NCA, NCM, LFP, LTO, graphite and silicon-graphite chemistries as well as sodium-ion, aluminum-ion and solid-state formulations. Kavian was named a TIME Best Invention of 2024 and a Fast Company World Changing Idea of 2025, and the Kavian 2000 platform is sold to battery makers serving AI data centers, energy storage, two- and three-wheel mobility, aerospace and industrial electrification. Sakuu sells capital equipment and process technology; it does not operate a software product, a developer program, or any public API.
+
+**Areas:** Company · Manufacturing · Advanced Manufacturing · Batteries · Energy Storage · Materials Science · Hardware · Clean Energy · Industrial Equipment
+
+## Sakuu on APIs.io
+
+Everything profiled for Sakuu is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sakuu/](https://apis.io/providers/sakuu/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sakuu Domain Security](https://apis.io/security/sakuu/sakuu-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sakuu Plans Pricing](https://apis.io/plans/sakuu/sakuu-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sakuu Rate Limits](https://apis.io/rate-limits/sakuu/sakuu-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sakuu.com/)
+- [Support](https://www.sakuu.com/contact)
+- [Blog](https://www.sakuu.com/news)
+- [Terms of service](https://www.sakuu.com/terms)
+- [Privacy policy](https://www.sakuu.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sakuu/](https://apis.io/providers/sakuu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sakuu: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sakuu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
